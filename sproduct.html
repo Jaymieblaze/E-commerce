@@ -38,13 +38,13 @@
                     <img src="images/products/f1.jpg" width="100%" class="small-img" alt="first image">
                 </div>
                 <div class="small-img-col">
-                    <img src="images/products/f2.jpg" width="100%" class="small-img" alt="first image">
+                    <img src="images/products/f2.jpg" width="100%" class="small-img" alt="second image">
                 </div>
                 <div class="small-img-col">
-                    <img src="images/products/f3.jpg" width="100%" class="small-img" alt="first image">
+                    <img src="images/products/f3.jpg" width="100%" class="small-img" alt="third image">
                 </div>
                 <div class="small-img-col">
-                    <img src="images/products/f4.jpg" width="100%" class="small-img" alt="first image">
+                    <img src="images/products/f4.jpg" width="100%" class="small-img" alt="fourth image">
                 </div>
             </div>
         </div>
@@ -201,6 +201,24 @@
             <p>© 2021, Ecommerce Template</p>
         </div>
     </footer>
+
+    <script>
+        var mainImg = document.getElementById('MainImg');
+        var smallImg = document.getElementsByClassName('small-img');
+
+        smallImg[0].onclick = function(){
+            mainImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function(){
+            mainImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function(){
+            mainImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function(){
+            mainImg.src = smallImg[3].src;
+        }
+    </script> 
 
     <script src="script.js"></script>
 </body>
