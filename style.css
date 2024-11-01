@@ -1200,11 +1200,15 @@ footer .copyright{
 
     #cart table td:nth-child(1) {
         width: 60px;
-        text-align: center;
     }
     #cart table td:nth-child(5) input {
         width: 40px;
-        padding: 10px 5px 10px 15px;
+    }
+    #cart table td:nth-child(2) {
+        width: 100px;
+    }
+    #cart table img {
+        width: 60px;
     }
     #cart-add {
         flex-direction: column;
