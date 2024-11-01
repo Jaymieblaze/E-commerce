@@ -1197,6 +1197,15 @@ footer .copyright{
     }
 
     /* CART */
+
+    #cart table td:nth-child(1) {
+        width: 60px;
+        text-align: center;
+    }
+    #cart table td:nth-child(5) input {
+        width: 40px;
+        padding: 10px 5px 10px 15px;
+    }
     #cart-add {
         flex-direction: column;
     }
